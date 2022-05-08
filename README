@@ -1,0 +1,28 @@
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Requirements
+ * Troubleshooting
+ * FAQ
+
+INTRODUCTION
+ This is a message encryption application. It uses the "one-time pad" method to encrypt and decrypt messages. More information on this topic can be found in the FAQ section.
+ 
+ To launch the application, run .Encryption/.mvp.py file.
+------------
+
+REQUIREMENTS
+    - Python 3.6+
+    - tkinter
+    - secrets
+------------
+
+TROUBLESHOOTING
+ ensure all requirements are met.
+---------------
+
+FAQ
+    -   QUESTION – What is a one-time-pad?
+        ANSWER: A one-time-pad is a type of encryption that is used to hide the contents of a message. Each letter in the encrypted phrase has a corresponding "one-time-pad" number. This number is then used to decrypt the message. Each one-time-pad number is a random number, and thus is impossible to guess and is theoretically impossible to crack by brute force. One-time-pads are used to hide messages in email, chat, and other online communication. More information on this method can be found [here](https://en.wikipedia.org/wiki/One-time_pad).
+---------------
